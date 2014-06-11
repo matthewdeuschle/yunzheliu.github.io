@@ -1,0 +1,60 @@
+---
+title       : Google analysis
+subtitle    : For Coursera Data Science Specialization
+author      : Yunzhe Liu
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## Looking the data
+
+```{r, echo=FALSE}
+library(plyr)
+library(data.table)
+library(rCharts)
+library(reshape2)
+library(ggplot2)
+load("analytics.Rdata")
+names(analytics)
+summary(analytics)
+```
+
+--- .custom
+
+## From 2013-04-18 ~ 2013-08-05
+
+ - `r format(sum(analytics$visits), big.mark=' ')` visits
+
+--- .custom
+
+
+## Now you can prepare yourself using Google analytics
+
+
+
+ - state of the art user interface*
+ - high quality data**
+ - fast and reliable***
+ - 100% Open source 
+
+- - -
+
+*** =foo
+
+- * If you really determined there is a chance you'll find worse.
+- ** There is small chance it could be worse.
+- *** It works. Most of the time.
+
+--- .custom
+
+
+
+## Are you interested?
+
+-  Enroll on [Coursera Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1) and learn how to build your own!
+ 
+
